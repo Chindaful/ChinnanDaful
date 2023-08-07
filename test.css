@@ -1,0 +1,43 @@
+.navbar {
+    background-color: rgb(93, 31, 34);
+    text-align: left;
+    font-size: 20px;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+h1 {
+    text-align: center;
+    font-family: Borel;
+}
+
+p {
+    font-family: Josefin;
+    color: blue;
+    font-size: 40px;
+    background-image: url(https://www.vecteezy.com/photo/8612703-html-code-on-computer-monitor-software-web-developer-programming-code);
+    background-size: cover;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: rgb(235, 235, 237)
+    }
+}
+
+ul {
+    text-align: center;
+    text-decoration: solid;
+}
+
+.button:hover {
+    background-color: rgb(176, 85, 25);
+    color: blue;
+}
+footer{
+    background-color: rgb(93, 31, 34);
+    padding: 30px 50px;
+}
