@@ -1,0 +1,36 @@
+ .gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: 300px;
+    grid-gap: 30px;
+    grid-auto-rows: 300px;
+         
+     }
+
+     .griditem1
+     {
+        background-color: blue;
+        
+     }
+
+     .griditem2
+     {
+        background-color: rgb(255, 64, 0);
+     }
+
+     .griditem3
+     {
+        background-color: rgb(0, 255, 76);
+       
+     }
+
+     .griditem4
+     {
+        background-color: rgb(255, 0, 238);
+     }
+
+     .griditem5
+     {
+        background-color: rgb(112, 115, 4);
+    
+     }
